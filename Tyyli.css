@@ -1,0 +1,212 @@
+ .fakeimg {
+      height: 400px;
+      background: red;
+  }
+body{ position: relative; 
+    width: 100%;
+    background-color: hsla(0, 100%, 70%, 0.5);
+    }
+
+/*Navbaarin tyylimääritykset */
+.navbar{
+    background-color: hsla(0, 100%, 70%, 0.4);
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900 ;
+   
+}
+.navbar-brand{
+    font-size: 25px;
+}
+ .nav-link{
+    color:red;!important;
+    }
+
+.navbar-inner{
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .7;
+}
+
+.dropdown-item{
+    font-size:28px;
+        color:black;
+}
+
+/* hampurilaiskuvio */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 0, 0);opacity:0.6;' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+ .nav-item .dropdown-menu a:hover {
+    color: black tea !important;
+        background:  hsla(0, 100%, 50%, 0.3);    !important;
+    cursor: pointer;
+}
+    
+.nav-link.active {
+    color: orangered;
+  }
+    
+.navbar-custom{
+   background: rgb(0,0,0);
+} 
+
+.dropdown-divider{
+    color: pink;
+    outline-style:dotted;
+}
+
+
+/*Karusellin tyylimääritykset*/
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+    height: 948px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+}
+p{
+     font-family: 'Comfortaa', cursive;
+    color: black;
+}
+.carousel-control-prev-icon{
+    font-size: 15px;
+    color: black;
+}
+
+/*Määritelään karusellin navigointipalkin tyylit*/
+
+/*edellinen*/
+.carousel-control-prev-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255, 0, 0);opacity:0.6;' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	}
+/*seuraava*/
+.carousel-control-next-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255, 0, 0);opacity:0.6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-caption{
+    text-align: center;
+    text-decoration-color: orange;
+    
+}
+
+/*Määritellään ravintola osion tyylit*/
+#ravintola img{ width: 100%;
+                max-width: 400px;
+                border-radius: 20% 0%;
+                height:100%;
+                max-height: 350px;
+                }
+
+
+/*korttiosion tyyli määtitykset*/
+.card-img-top{
+    height:100%;
+    max-height: 250px;
+}
+.card-group{
+    max-height: 900px;
+}
+
+.card-title {
+    text-align: center;
+     font-family: 'Comfortaa', cursive;
+}
+
+.card-text{
+    font-family: 'Comfortaa', cursive;
+}
+h2{
+    text-align: center;
+        font-family: 'Comfortaa', cursive;
+    font: 25px;
+    font-weight: 900
+}
+
+
+/*haittarimallien linkkn väri*/
+.card-header {background-color: hsla(0, 100%, 70%, 0.9) !important;}
+a.card-link {color:azure !important;}
+
+.carousel-inner{margin:auto;
+text-align: center;}
+
+.col {
+    margin-bottom: 21px;
+   
+    
+}
+.col-4{
+    margin-bottom:21px;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+
+.kuva{
+    height:500px;
+    max-width: 800px; !important;
+}
+.teksti{
+    height:500px;
+}
+
+h3-1{
+   font-family: 'Comfortaa', cursive;
+font-size:45px;
+     font-weight: 900
+    
+}
+h3-2{
+    font-family: 'Comfortaa', cursive;
+    font-size:25px;
+    
+}
+#ravintola {
+    background-color: hsla(0, 100%, 70%, 0.5);
+}
+
+h3-3{
+    text-align: center;
+     font-family: 'Comfortaa', cursive;
+     font-size: 20px;!important; 
+}
+
+.p.card-pic{
+    border-radius: 30% 0%;
+}
+
+.card-header{
+    color: pinnk;!important;
+}
+.card{
+    color: hsla(0, 100%, 70%, 0.9);!important;
+}
+
+.card-link {
+     color: hsla(0, 100%, 70%, 0.6);
+}
+
+.card-group{
+    max-height: 900px;
+}
+.footer {
+   position:absolute;
+   left: 0;
+    font-family: 'Comfortaa', cursive;
+   bottom: 0;
+   width: 100%;
+   background-color: hsla(0, 100%, 70%, 0.5);
+   color: white;
+   text-align: center;
+}
+tr{
+   background-color: hsla(0, 100%, 70%, 0.6);
+}
